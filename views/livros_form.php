@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Novo Livro</title>
+    </head>
+    <body>
+        <h1>Adicionar Livro</h1>
+        <form method="POST" action="index.php?acao=salvar">
+            <label>Título: <input type="text" name="titulo"> </label>
+            <label>Autor: <input type="text" name="autor"> </label>
+            <br>
+            <button
+                style="
+                    margin: 5px;
+                    padding: 10px;
+                    border-radius: 30px;
+                    border: 1;
+                    background-color: #eee;
+                ",
+                type="submit">
+                Adicionar
+            </button>
+            <button
+                    style="
+                        margin: 5px;
+                        padding: 10px;
+                        border-radius: 30px;
+                        border: 1;
+                        align-text: center;
+                        background-color: #eee;
+                    "
+                >
+                    <a 
+                        style="
+                            color: black;
+                            text-decoration: none;
+                        ",
+                        href="index.php?acao=index"
+                    >
+                        Voltar
+                    </a>
+            </button>
+        </form>
+    </body>
+</html>
